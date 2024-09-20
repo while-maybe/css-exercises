@@ -24,3 +24,61 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* MY STUFF GOES HERE */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 8px 16px;;
+}
+
+a:link {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.header,
+.content,
+.footer, 
+.left-links,
+.right-links {
+  display: flex;
+}
+
+.left-links, 
+.right-links {
+  gap:16px;
+}
+
+.header,
+.footer {
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
